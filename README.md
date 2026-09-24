@@ -72,7 +72,7 @@
 ## 👤 Автор
 - **Создатель:** Jimi_Hopper
 - **Telegram:** [@Jimi_Hopper](https://t.me/+f6H5n_JAHOZhNTY6)
-- **Публикация на BlastHack:** [Тема на BlastHack]([https://www.blast.hk/](https://www.blast.hk/threads/258047/))
+- **Публикация на BlastHack:** [Тема на BlastHack](https://www.blast.hk/threads/258047/)
 
 ---
 
