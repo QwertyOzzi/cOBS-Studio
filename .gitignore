@@ -1,0 +1,9 @@
+# Ignore game logs and cache
+*.log
+*.tmp
+*.bak
+*~
+
+# Ignore local config files
+config/cobs.ini
+cobs.ini
