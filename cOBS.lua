@@ -1023,6 +1023,11 @@ local settings_tab  = 1
 local hud_sub = nil
 local tg_copied_timer = 0
 
+local function toggle_settings()
+    if settings_open then save_config() end
+    settings_open = not settings_open
+end
+
 -- ═══════ Защита от копирования и контроль авторства (Anti-Tamper) ═══════
 local _AUTH_BYTES = {74, 105, 109, 105, 95, 72, 111, 112, 112, 101, 114} -- "Jimi_Hopper"
 local _TG_BYTES   = {104, 116, 116, 112, 115, 58, 47, 47, 116, 46, 109, 101, 47, 43, 102, 54, 72, 53, 110, 95, 74, 65, 72, 79, 90, 104, 78, 84, 89, 54} -- "https://t.me/+f6H5n_JAHOZhNTY6"
@@ -2419,11 +2424,6 @@ local KEY_MENU   = vkeys.VK_F11 -- Меню настроек /co
 ----------------------------------------------------------------
 -- main
 ----------------------------------------------------------------
-local function toggle_settings()
-    if settings_open then save_config() end
-    settings_open = not settings_open
-end
-
 function main()
     math.randomseed(os.time())
 
